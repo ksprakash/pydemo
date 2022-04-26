@@ -1,0 +1,23 @@
+mkdir  pydemo
+cd pydemo
+git init
+
+git config --global user.name  anil
+git config --global user.email <anil@gmail.com
+
+
+vi script.py 
+
+git status
+
+unstage-----> stage     git add script.py
+
+stage------->commit     git commit -m "give some message"
+
+<remote side>github  source code repository
+
+repo is created with name pydemo
+
+git remote add origin https://github.com/ksprakash/pydemo.git
+
+git push -u origin master
